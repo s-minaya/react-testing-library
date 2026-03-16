@@ -55,7 +55,7 @@ const mockOrders = [
 ];
 
 describe("<Orders />", () => {
-  const handleRenderOrders = (userRole) => {
+  const handleRenderOrders = (userRole: string) => {
     const mockUser = userRole ? { role: userRole } : null;
     (useSession as Mock).mockReturnValue({ user: mockUser });
     render(
