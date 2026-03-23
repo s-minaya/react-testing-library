@@ -93,3 +93,6 @@ or if you use npm:
 ```
 npm run start
 ```
+
+## 📚 Apuntes del curso
+Puedes ver mis notas y aprendizajes aquí: [LEARNINGS.md](./LEARNINGS.md)
